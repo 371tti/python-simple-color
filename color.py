@@ -34,3 +34,8 @@ def CTXT(text):
 #demo
 
 print(CTXT("$f 0 : 255 : 0 >Hello world!"))
+print(CTXT("$f#00ff00>green text!!"))
+print(CTXT("$f#000000 b#ffffff>white-back,black-text!"))
+font_color = 123456
+back_color =098765
+print(CTXT(f"$f#{font_color}b#{back_color}>yesyesyeees"))
